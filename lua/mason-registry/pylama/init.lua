@@ -7,5 +7,5 @@ return Pkg.new {
     homepage = "https://github.com/klen/pylama",
     languages = { Pkg.Lang.Python },
     categories = { Pkg.Cat.Linter },
-    install = pip3.packages { "pylama[all]", bin = { "pylama -l ''" } },
+    install = pip3.packages { "pylama[all]", bin = { "pylama" } },
 }
